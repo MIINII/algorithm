@@ -24,3 +24,9 @@ function solution(price, money, count) {
     const tmp = price * count * (count + 1) / 2 - money;
     return tmp > 0 ? tmp : 0;
 }
+
+
+// 우리가 이문제에서 알아야할것
+// 01. 삼항연산자
+// condition ? value if true : value if false
+// -> 조건이 true일때 실행 / false일때 실행
