@@ -17,3 +17,4 @@ function solution3(a) {
 console.log(solution(24))
 console.log(solution2(24))
 console.log(solution3(24))
+ 
