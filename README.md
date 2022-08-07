@@ -1,4 +1,5 @@
 # algorithm
+[🏹화살표함수가 궁금하다면!](https://github.com/MIINII/algorithm/blob/main/__arrow.js)
 ### 001. linear_search
 
 [linear_search Code](https://github.com/MIINII/algorithm/blob/main/001_linear_search.js)
@@ -43,4 +44,12 @@
    (= 1과 최대값을 더해서 총 개수의 절반을 곱해준다.)
 ---
 ### 006. 문자열에서 숫자열로
++a; : 변수앞에 **숫자연산자**가 붙으면 계산하려고 알아서 문자열을 숫자로 바꿔준답니다 신기방기
 
+---
+### 007. 문자열 다루기 기본
+ > test() 메소드 -> 정규식과 특정 문자열 사이의 일치에 대한 검색을 수행. true 또는 false 를 반환
+
+---
+### 008. 자릿수 더하기
+방법 1. 숫자를 문자열로 변환후 배열로 만들기
