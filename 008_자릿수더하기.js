@@ -43,25 +43,24 @@ function solution(n) {
   let answer = 0
   let num = n.toString()
 
-  for (let i = 0; i < num.length; i++) {
-    answer += parseInt(num[i])
+  for (let i = 0; i <= num.length; i++) {
+    answer += parseInt(num[i]) // parseInt -> 정수로!
   }
-
+  
   return answer
+  // console.log(num.length)
 }
-
-// function solution2(n){
-//   let arr = n+('').split('').map(num => parseInt(num))
-//   return arr.reduce((acc, cur) => acc + cur)
-// }
-
-// console.log(solution2(123))
-
-
 
 console.log(solution(123))
 
-function solution(n){
-    // 쉬운방법
-    return (n+"").split("").reduce((acc, curr) => acc + parseInt(curr), 0)
+function solution2(n){ 
+  let arr = n+(' ').split(' ').map(num => parseInt(num))
+  return arr.reduce((acc, cur) => acc + cur)
 }
+
+// console.log(solution2(123))
+
+// function solution(n){
+//     // 쉬운방법
+//     return (n+"").split("").reduce((acc, curr) => acc + parseInt(curr), 0)
+// }
