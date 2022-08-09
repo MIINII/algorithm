@@ -13,7 +13,7 @@ function solution(s) {
 console.log(solution('z234'))
 
 
-// =========================
+// ========================= 
 
 // 다른사람들의 풀이
 function alpha_string46(s){
