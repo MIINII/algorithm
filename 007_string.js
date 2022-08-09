@@ -1,3 +1,5 @@
+// 프로그래머스_문자열 다루기 기본
+
 function solution(s) {
   let result = parseInt(s) // s를 정수로 변환 -> 문자열이 껴있으면 NaN이 출력
   if ((s.length === 4 || s.length === 6) && s == result) {
