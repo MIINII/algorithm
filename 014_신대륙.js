@@ -27,4 +27,4 @@ function solution(month, day){
   return `${getMonth}월 ${getDate}일`
 }
 
-console.log(solution(11,27))
+console.log(solution(11,27)) 
