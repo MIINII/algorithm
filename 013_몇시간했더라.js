@@ -30,4 +30,4 @@ const solution2 = () => {
 console.log(solution(checkIn, checkOut))
 console.log(solution2(checkIn, checkOut))
 
-// 압도적 감사~^^
+// 압도적 감사~^^ 
