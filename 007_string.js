@@ -16,8 +16,8 @@ console.log(solution('z234'))
 
 // =========================
 
-// // 다른사람들의 풀이
-// function alpha_string46(s){
-//   var regex = /^\d{6}$|^\d{4}$/; // 정규표현식
-//   return regex.test(s); // test() 메소드는 정규식과 특정 문자열 사이의 일치에 대한 검색을 수행한다. true 또는 false 를 반환 합니다
-// }
+// 다른사람들의 풀이
+function alpha_string46(s) {
+  var regex = /^\d{6}$|^\d{4}$/ // 정규표현식
+  return regex.test(s) // test() 메소드는 정규식과 특정 문자열 사이의 일치에 대한 검색을 수행한다. true 또는 false 를 반환 합니다
+}
