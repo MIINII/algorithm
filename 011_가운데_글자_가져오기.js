@@ -15,3 +15,4 @@ console.log(solution('abcd'))
 
 
 // String.prototype.substr() : 문자열에서 특정 위치에서 시작하여 특정 문자 수 만큼의 문자들을 반환
+ 
