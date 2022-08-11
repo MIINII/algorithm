@@ -1,22 +1,19 @@
-function binarySearch(element, someList) {
-  let firstIndex = 0;
-  let lastIndex = someList.length - 1;
+let b = 1
 
-  while (firstIndex <= lastIndex) {
-    let middleIndex = Math.floor((firstIndex + lastIndex) / 2);
-    if (someList[middleIndex] == element) {
-      return middleIndex;
-    } else if (someList[middleIndex] < element) {
-      firstIndex = middleIndex + 1;
-    } else if (someList[middleIndex] > element) {
-      lastIndex = middleIndex - 1;
-    }
-  }
-  return '바보';
+function hi() {
+  const a = 1
+
+  let b = 100
+
+  b++
+
+  console.log('🚀 -> a,b', a, b)
 }
 
-console.log(binarySearch(2, [2, 3, 5, 7, 11]));
-console.log(binarySearch(0, [2, 3, 5, 7, 11]));
-console.log(binarySearch(5, [2, 3, 5, 7, 11]));
-console.log(binarySearch(3, [2, 3, 5, 7, 11]));
-console.log(binarySearch(11, [2, 3, 5, 7, 11]));
+//console.log(a);  // -> hi()안에 있으면 지역변수로 선언되어 이 함수를 실행할때만 변수a가 초기화 되기 때문에 hi() 밖에서 변수를 선언해야 성립된다.
+
+console.log('🚀 -> b', b) // 1 -> line1:b는 전역변수이기 때문에 1로 출력 : 함수안에서의 변경점과 상관x
+
+hi() // 1, 101 -> ㅣㅑㅜ b : (1,101)인데 1번째줄의 전역변수로 시작하여 h1()안에서 b =100 으로 변경 된후 b+1 되어 101로 출력
+
+console.log('🚀 -> b', b) // 1 -> line1:b는 전역변수이기 때문에 1로 출력 : 함수안에서의 변경점과 상관x
